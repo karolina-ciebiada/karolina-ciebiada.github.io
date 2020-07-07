@@ -1,0 +1,58 @@
+.hello{
+    padding:74px 16px 0;
+    &__image{
+        box-sizing:content-box;
+      width:96px;
+      height:96px;  
+      border-radius:50%;
+      border: 24px solid #F6F9FD;
+    }
+    &__content{
+        margin-bottom:48px;
+    }
+    &__mail-box{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+    }
+    &__image-box{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    &__header{
+        text-align:center;
+font-size: 26px;
+line-height: 32px;
+color:#234361;
+    }
+    &__there{
+        display:none;
+    }
+    &__specials{
+        color:#1070CA;
+    }
+    &__description{
+        font-weight: 300;
+font-size: 16px;
+line-height: 32px;
+text-align:center;
+    }
+    &__link{
+        color:#4DA8FF;
+        font-weight:bold;
+        text-decoration: none;
+    }
+    &__mail{
+        border-radius: 64px;
+        background: #4DA8FF;
+        color:white;
+        display:inline-block;
+        padding:4px 16px;
+        font-size:20px;
+        font-weight:bold;
+        line-height: 40px;
+        text-decoration:none;
+
+    }
+}
