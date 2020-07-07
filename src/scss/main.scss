@@ -1,13 +1,135 @@
 @import "~normalize.css";
+@import "modules/skills.scss";
+@import "modules/projects.scss";
+@import "modules/contact.scss";
+@import "modules/mobile.scss";
 
-@import "_variables";
-@import "modules/hello.scss";
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
+  background: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+.section__hello{
+  display:flex;
+  flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  align-items: center;
+min-height:600px;
+margin:46px;
+padding-bottom:50px;
+}
+.hello {
+display:flex;
+justify-content: center;
+align-items: center;
+  color:#234361;
+}
+.hello__svg{
+  display:inline-block;
+margin-top:40px;
+}
+.hello__container{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items:center;
+ max-width:830px;
+}
+.hello__img{
+  display:flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 24px solid #F6F9FD;
+}
+.hello__header{
+  text-align:center;
+  font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+}
+.hello__description{
+text-align:center;
+font-weight: 300;
+font-size: 20px;
+line-height: 40px;
+
+}
+
+.hello__mail{
+  
+  color:white;
+  font-weight: 700;
+  font-size: 20px;
+  width: 290px;
+    height: 48px;
+    margin-top:100px;
+    background: #4DA8FF;
+    border-radius: 64px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  .hello__mailbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+ 
+.hello__box{
+  display:flex;
+  flex-direction: row;
+  width: 203px;
+  height: 228px;
+  margin-bottom:16px;
+}
+.hello__there{
+  font-weight: 700;
+  font-size: 32px;
+  color:white;
+  width: 230px;
+height: 72px;
+background: #1070CA;
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin:0 0 40px 20px;
+
+}
+.hello__there-box{
+display:flex;
+align-items: flex-start;
+}
+
+.hello__img-box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.hello__dymek{
+  
+}
+.section__hello--specials{
+  color:#1070CA;
+}
+a{
+  font-weight: bold;
+}
+a:visited{
+  color:#4DA8FF;
+  font-weight:bold;
+}
+a:linked{
+  color:#4DA8FF;
+  font-weight:bold;
+}
+.links{
+  text-decoration: none;
+  color:white;
 }

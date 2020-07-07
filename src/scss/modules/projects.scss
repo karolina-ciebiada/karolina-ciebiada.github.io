@@ -1,0 +1,41 @@
+
+  .projects{
+    height: 1232px;
+   display:flex;
+    align-items:center;
+    flex-direction: column;
+    &__header{
+        display:flex;
+    justify-content:center;
+    align-items:center;
+        font-size:48px;
+        margin:80px auto 40px auto;
+        color: #234361;
+    }
+}
+.projects__text{
+    font-size:20px;
+    text-align:center;
+    text-justify: justify;
+    font-weight: 300;
+line-height: 40px;
+}
+.projects__box{
+   max-width: 830px;
+height: 80px;
+}
+.projects__wrapper{
+    margin-top:300px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    
+height: 672px;
+}
+.projects__line{
+    display: flex;
+flex-direction: row;
+
+height: 324px;
+margin-bottom:16px;
+}
