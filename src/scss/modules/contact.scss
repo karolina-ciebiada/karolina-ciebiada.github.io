@@ -1,0 +1,35 @@
+.contact{
+    background: #DBEAF7;
+    padding:64px 16px 88px 16px;
+    &__header{
+        text-align:center;
+        color: #234361;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    &__description{
+        text-align:center;
+        font-weight: 300;
+font-size: 16px;
+line-height: 32px;
+color: #425A70;
+margin-bottom:56px;
+    }
+    &__icon{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background: #FFFFFF;
+        width: 48px;
+height: 48px;
+border-radius:50%;
+box-shadow: 0px 4px 8px rgba(16, 112, 202, 0.15);
+margin:0 12px 64px 12px;
+    }
+}
+.icons__wrapper{
+    display:flex;
+    align-content:center;
+    justify-content: center;
+}
