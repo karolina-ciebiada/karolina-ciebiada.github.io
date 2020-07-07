@@ -1,0 +1,83 @@
+.skills{
+    background: #1070CA;
+    color:white;
+    padding:64px 16px 88px;
+    &__header{
+        font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align:center;
+    }
+}
+
+.skills-section{
+    margin-top:64px;
+&__emoji{
+    font-size: 64px;
+line-height: 64px;
+display:block;
+text-align:center;
+}
+&__header{
+    font-weight: bold;
+font-size: 24px;
+line-height: 44px;
+text-align:center;
+margin:16px 0 24px;
+}
+}
+.skills-list{
+        font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    width:288px;
+    margin:0 auto;
+    padding:0;
+    &__item{
+       padding:0 0 0 24px;
+    position:relative;
+       margin:0 0 16px 0;
+       &:before {
+           position:absolute;
+           left:0;
+           top:7px;
+           content: '';
+           width:12px;
+           height:9px;
+           background: url('../assets/img/small-tick.svg');
+           display:block;
+       }
+    }
+    }
+.skills-list__item--white{
+    margin:0 0 16px 0;
+    padding: 0 0 0 24px;
+    position:relative;
+    &:before{
+        position:absolute;
+        left:0;
+        top:7px;
+        content: '';
+        background: url('../assets/img/small-tick-white.svg');
+        width:12px;
+           height:9px;
+           display:block;
+    }
+}
+.skills-list__item--special{
+    margin:0 0 16px 0;
+    padding: 0 0 0 24px;
+    position:relative;
+    &:before{
+        position:absolute;
+        left:5px;
+        top:10px;
+        content: '';
+        background: white;
+        width:2px;
+           height:2px;
+           border-radius:50%;
+           display:block;
+    }
+}
