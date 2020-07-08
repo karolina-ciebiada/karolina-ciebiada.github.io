@@ -1,0 +1,16 @@
+.hand{
+    display:inline-block;
+    animation: hand 0.8s ease-in-out infinite;
+}
+@keyframes hand{
+    0%{
+        transform: rotate(-10deg);
+    }
+   
+    50%{
+        transform:rotate(20deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
