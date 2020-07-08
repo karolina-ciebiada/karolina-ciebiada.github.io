@@ -152,7 +152,7 @@
   <section class="hello">
     <div class="hello__image-box"> 
   <img class="hello__image" src="../assets/img/ss.png" width="178" height="178"/>
-  <span class="hello__there">Hey there! 👋</span>
+  <span class="hello__bubble"><span class="hello__there">Hey there! 👋</span></span>
   </div>
 
       <div class="hello__content"> 
@@ -160,7 +160,7 @@
      <span class="hello__specials">Frontend developer</span> and beginner graphic designer.</h1>
     <p class="hello__description">
       You might be interested in checking the list of <a class="hello__link" href="#skills">my skills</a>.
-      Don’t forget to  have a glimpse at <a class="hello__link" href="#projects">my projects</a>. Currently I’m looking for a new challenges so if you have one - <a class="hello__link" href="#contact">contact me</a> 😊</p>
+      Don’t forget to  have a glimpse at <a class="hello__link" href="#projects">my projects</a>. I’m looking for a new challenges so if you have one - <a class="hello__link" href="#contact">contact me</a> 😊</p>
     </div>
     <div class="hello__mail-box">
     <a class="hello__mail" href="mailto:karolina.ciebiada@icloud.com">karolina.ciebiada@icloud.com</a>
@@ -170,6 +170,8 @@
 <section class="skills" id="skills">
 
   <h2 class="skills__header">My skills</h2>
+
+  <div class="skills__columns">
   <article class="skills-section">
   <span class="skills-section__emoji">💪</span>
   <h3 class="skills-section__header">Working knowledge</h3>
@@ -211,14 +213,17 @@
 <li class="skills-list__item--special">Websockets</li>
     </ul>
   </article>
+</div>
 </section>
 
 <section class="projects" id="projects">
 
+  <div class="projects__wrapper">
 <h2 class="projects__header">Recent projects</h2>
 <p class="projects__text">I started my frontend developer path in 2020.
    Since then, I’ve built some projects. Here’s the list of the things I’ve done so far.</p>
-   
+  </div>
+   <div class="projects-grid">
     <article class="project">
      <div class="project__window">
        <span class="project__circle"></span>
@@ -232,18 +237,71 @@
 <h3 class="project-grid project-title">
   <span class="project__grey">project:</span> <span>homepage </span>
 </h3>
-<p class="project-grid">
+<p class="project-grid project-grid--description">
   <span class="project__grey">description:</span>
   <span class="project__light">my homepage</span>
 </p>
-<p class="project-grid">
+<p class="project-grid project-grid--description">
   <span class="project__grey">demo:</span> <a class="project__links" href="#">see here</a>
 </p>
-<p class="project-grid">
+<p class="project-grid project-grid--description">
   <span class="project__grey">github:</span> <a class="project__links"  href="#">source code</a>
 </p>
 </div>
 </article>
+
+<article class="project">
+  <div class="project__window">
+    <span class="project__circle"></span>
+    <span class="project__circle"></span>
+    <span class="project__circle"></span>
+  </div>
+  
+  <div class="project__content">
+  <img src="../assets/img/github.svg" width="21" height="21"/>
+ 
+<h3 class="project-grid project-title">
+<span class="project__grey">project:</span> <span>homepage </span>
+</h3>
+<p class="project-grid project-grid--description">
+<span class="project__grey">description:</span>
+<span class="project__light">my homepage</span>
+</p>
+<p class="project-grid project-grid--description">
+<span class="project__grey">demo:</span> <a class="project__links" href="#">see here</a>
+</p>
+<p class="project-grid project-grid--description">
+<span class="project__grey">github:</span> <a class="project__links"  href="#">source code</a>
+</p>
+</div>
+</article>
+
+<article class="project">
+  <div class="project__window">
+    <span class="project__circle"></span>
+    <span class="project__circle"></span>
+    <span class="project__circle"></span>
+  </div>
+  
+  <div class="project__content">
+  <img src="../assets/img/github.svg" class="" width="21" height="21"/>
+ 
+<h3 class="project-grid project-title">
+<span class="project__grey">project:</span> <span>homepage </span>
+</h3>
+<p class="project-grid project-grid--description">
+<span class="project__grey">description:</span>
+<span class="project__light">my homepage</span>
+</p>
+<p class="project-grid project-grid--description">
+<span class="project__grey">demo:</span> <a class="project__links" href="#">see here</a>
+</p>
+<p class="project-grid project-grid--description">
+<span class="project__grey">github:</span> <a class="project__links"  href="#">source code</a>
+</p>
+</div>
+</article>
+</div>
 </section>
 
 <section class="contact" id="contact">
@@ -251,15 +309,16 @@
  <h2 class="contact__header">Contact me</h2>
   <p class="contact__description">I’m open for new opportunities.
      If you have one for me we should talk!</p>
-   
+   <div class="contact__desktop">
      <div class="icons__wrapper">
      <a class="contact__icon" href="https://github.com/karolina-ciebiada" target="_blank"> <img src="../assets/img/github_blue.svg"/> </a>
       <a class="contact__icon" href="https://www.instagram.com/karolinnus/" target="_blank"> <img src="../assets/img/instagram.svg"/> </a>
         <a class="contact__icon" href="https://www.facebook.com/karolina.ciebiada.1" target="_blank"> <img src="../assets/img/FB.svg"/> </a>
       </div>
-      <div class="hello__mail-box">
+      <div class="contact__mail-box">
      <a class="hello__mail" href="mailto:karolina.ciebiada@icloud.com">karolina.ciebiada@icloud.com</a>
     </div>
+  </div>
 </section>
 
 </main>

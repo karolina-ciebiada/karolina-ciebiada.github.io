@@ -1,12 +1,20 @@
 .contact{
     background: #DBEAF7;
     padding:64px 16px 88px 16px;
+    @media (min-width:960px){
+    padding:80px 16px 176px 16px;
+    }
     &__header{
         text-align:center;
         color: #234361;
         font-weight: bold;
         font-size: 36px;
         line-height: 48px;
+        @media (min-width:960px){
+            font-size: 48px;
+line-height: 56px;
+margin-top:0;
+        }
     }
     &__description{
         text-align:center;
@@ -15,7 +23,11 @@ font-size: 16px;
 line-height: 32px;
 color: #425A70;
 margin-bottom:56px;
+@media (min-width:960px){
+    font-size: 20px;
+    line-height: 40px;
     }
+}
     &__icon{
         display:flex;
         align-items:center;
@@ -32,4 +44,21 @@ margin:0 12px 64px 12px;
     display:flex;
     align-content:center;
     justify-content: center;
+    
+}
+.contact__mail-box{
+    display:flex;
+    align-content:center;
+    justify-content: center;
+   
+}
+.contact__desktop{
+    @media (min-width:960px){
+        width: 580px;
+height: 48px;
+margin:128px auto 0 auto;
+        display:flex;
+        justify-content: space-between;
+        
+    }
 }

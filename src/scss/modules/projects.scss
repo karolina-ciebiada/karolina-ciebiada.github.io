@@ -1,11 +1,25 @@
 .projects{
-    padding:64px 16px 88px 16px;
+    padding:80px 16px 88px 16px;
+    @media (min-width:960px){
+        padding:80px 128px 176px 128px;  
+    }
     &__header{
         text-align:center;
         font-weight: bold;
 font-size: 36px;
 line-height: 48px;
 color: #425A70;
+@media (min-width:960px){
+    font-size: 48px;
+    line-height: 56px;
+}
+    }
+    &__wrapper{
+        display:block;
+        @media (min-width:960px){
+            max-width:782px;
+            margin:0 auto;
+        }
     }
     &__text{
         font-weight: 300;
@@ -13,6 +27,12 @@ font-size: 16px;
 line-height: 32px;
 text-align:center;
 margin-bottom:46px;
+@media (min-width:960px){
+    font-weight: 300;
+font-size: 20px;
+line-height: 40px;
+margin-bottom:128px;
+}
     }
 }
 .project{
@@ -24,6 +44,9 @@ margin-bottom:46px;
     color:white;
     overflow:hidden;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    @media (min-width:960px){
+        font-size: 16px;
+    }
     &__circle{
         display:block;
         width: 8px;
@@ -41,6 +64,9 @@ padding: 0 0 0 16px;
     }
     &__content{
         padding: 24px 16px;
+        @media (min-width:960px){
+            padding: 18px 48px 58px;
+        }
     }
     
     &__grey{
@@ -57,9 +83,33 @@ padding: 0 0 0 16px;
 }
 .project-title{
     font-size:13px;
+   
+    @media (min-width:960px){
+        font-size: 16px;
+        line-height:24px;
+     
+    }
 }
 .project-grid{
     display:grid;
     grid-template-columns: 102px 1fr;
     column-gap:8px;
+    margin:0 0 8px 0;
+    @media (min-width:960px){
+        grid-template-columns: 116px 1fr;
+        margin-top:24px;
+    }
+}
+.projects-grid{
+    display:grid;
+    column-gap: 24px;
+    row-gap:24px;
+    max-width:1184px;
+    margin:0 auto;
+    @media (min-width:768px){
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.project-grid--description{
+    margin-bottom:24px;
 }
